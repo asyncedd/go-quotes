@@ -1,6 +1,6 @@
 ## 🐹 Go quotes!
 
-Some [Go](https://go.dev/) program to, well, learn Go!
+Some [🐹 Go ](https://go.dev/) program to, well, learn Go!
 
 ## ❓ Installing.
 
