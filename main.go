@@ -58,6 +58,6 @@ func main() {
 	}
 
 	for i := 0; i < numberOfQuotes; i++ {
-		fmt.Printf("Your quote is: %s\n", quotes[randomInt(0, len(quotes))])
+		fmt.Printf("%s\n", quotes[randomInt(0, len(quotes))])
 	}
 }
