@@ -19,7 +19,18 @@ func main() {
   }
 
   fmt.Printf("Enter the amount of quotes you want: ")
-  fmt.Scanln(&numberOfQuotes)
+  _, err := fmt.Scanln(&numberOfQuotes)
+
+  if err != nil {
+    fmt.Printf("Invalid input. Please enter a valid integer")
+    return
+  }
+
+  if numberOfQuotes < 0 {
+    fmt.Printf("Invalid number. Please enter a positive integer")
+    return
+  }
+
 
   for i := 0; i < numberOfQuotes; i++ {
     fmt.Printf("Your quote is: %s\n",  quotes[randomInt(0, len(quotes))])
