@@ -32,7 +32,7 @@ func main() {
 		return
 	}
 
-	fmt.Printf("GETing quotes from Zennquotes")
+	fmt.Printf("GETing quotes from Zennquotes\n")
 	resp, err := http.Get("https://zenquotes.io/api/quotes")
 	if err != nil {
 		fmt.Println("Error making request:", err)
