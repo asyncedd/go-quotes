@@ -16,5 +16,5 @@ func main() {
     "Hello world!",
   }
 
-  fmt.Printf("Your quote is:%d\n",  quotes[randomInt(1, len(quotes))])
+  fmt.Printf("Your quote is: %s\n",  quotes[randomInt(0, len(quotes))])
 }
